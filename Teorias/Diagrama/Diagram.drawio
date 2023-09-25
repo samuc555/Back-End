@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-08-29T11:29:07.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="KUUibycjBblIIeKZSWW6" version="21.6.9" type="device">
+  <diagram name="Página-1" id="nf69qy8m0w4jR35cJ8Qr">
+    <mxGraphModel dx="1235" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fPFnTRuKoG5fr7qvX3Lr-5" value="Cadastro da conta do Google" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="368" width="290" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="fPFnTRuKoG5fr7qvX3Lr-6" value="+ E-mail : string&lt;br&gt;+ Senha : string&lt;br&gt;+ ConfSenha : string&lt;br&gt;+ Telefone : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fPFnTRuKoG5fr7qvX3Lr-5" vertex="1">
+          <mxGeometry y="26" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fPFnTRuKoG5fr7qvX3Lr-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fPFnTRuKoG5fr7qvX3Lr-5" vertex="1">
+          <mxGeometry y="130" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fPFnTRuKoG5fr7qvX3Lr-8" value="+ Cadastrar() : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fPFnTRuKoG5fr7qvX3Lr-5" vertex="1">
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dQk07o-bMYRJ-sbp72dK-1" value="Classe de Raposa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dQk07o-bMYRJ-sbp72dK-2" value="+ Pelagem : string&lt;br&gt;+ Tamanho : float&lt;br&gt;+ Peso : string&lt;br&gt;+ Localizacao : string&lt;br&gt;+ TipoDeCauda : string&lt;br&gt;+ Dieta : string&lt;br&gt;+ CorDosOlhos : string&lt;br&gt;+ Orelhas : string&lt;br&gt;+ ExpectativaDeVida : string&lt;br&gt;+ Especie : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dQk07o-bMYRJ-sbp72dK-1">
+          <mxGeometry y="26" width="300" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="dQk07o-bMYRJ-sbp72dK-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dQk07o-bMYRJ-sbp72dK-1">
+          <mxGeometry y="180" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dQk07o-bMYRJ-sbp72dK-4" value="+ Comer() : void&lt;br&gt;+ Dormir() : void&lt;br&gt;+ Procriar() : void&lt;br&gt;+ Correr() : void&lt;br&gt;+ FazerSom() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dQk07o-bMYRJ-sbp72dK-1">
+          <mxGeometry y="188" width="300" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
