@@ -1,0 +1,45 @@
+@model Projeto_Acoes.Models.Acao
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="fw-bolder">Vender</h1>
+
+<h3>Você realmente deseja vender esta ação?</h3>
+<div>
+    <h4 class="fw-bolder">Acao</h4>
+    <hr />
+    <dl class="row border rounded shadow p-4">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Codigo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Codigo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Empresa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Logo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Logo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="AcaoId" />
+        <input type="submit" value="Vender" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-outline-success">Back to List</a>
+    </form>
+</div>
